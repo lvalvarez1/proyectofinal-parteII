@@ -1,0 +1,18 @@
+/*Modificar colores y fuentes desde textodepagina */
+
+section{
+
+    h1{
+        font-family: $fuentedetitulo;
+        font-weight: 500;
+        color: $coloresgenerales;
+        
+    }
+    
+    p{
+        font-family: $fuentedesubtitulo;
+        font-weight: 600;
+        color:$coloresgenerales;
+    }
+    
+    }

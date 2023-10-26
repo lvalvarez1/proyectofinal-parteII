@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playpen+Sans:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=MuseoModerno:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e4f7ff;
+}
+  body div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}  
+
+.cards-container{
+  display: flex;
+  justify-content: center;
+  }
+  
+
+@media (min-width:550px){
+  .cards-container{
+    flex-direction: row;
+  }
+}
+
+
+
+/*importar fuente de google a Main y sus nombres para utilizar estas variables*/
+.introduccion h1 {
+  font-family: "dancing script", cursive;
+  font-weight: 500;
+  color: #000000;
+  padding-right: 50px;
+}
+.introduccion p {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 500;
+  color: #000000;
+}
+
+/*Modificar colores y fuentes*/
+section h1 {
+  font-family: "dancing script", cursive;
+  font-weight: 300;
+  color: #000000;
+  text-align: center;
+}
+section p {
+  font-family: "Playpen Sans", cursive;
+  font-weight: 600;
+  color: #000000;
+}
+
+/*Modificar colores y fuentes desde textodepagina */
+section h1 {
+  font-family: "dancing script", cursive;
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+}
+section p {
+  font-family: "Playpen Sans", cursive;
+  font-weight: 600;
+  color: #000000;
+}
+
+/*Modificar colores y fuentes*/
+.formato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px;
+  font-family: "Playpen Sans", cursive;
+}
+@media (max-width:500px){
+  .formato{
+    grid-template-columns: none;
+  }
+}
+
+h1 {
+  font-family: "dancing script", cursive;
+}
+
+.formato:hover {
+  color: red;
+  transition: 2s;
+  border: solid 5px #e6d70a;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */

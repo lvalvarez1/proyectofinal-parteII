@@ -1,0 +1,27 @@
+/*Modificar colores y fuentes*/
+.formato{
+   display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+     font-family: $fuentedesubtitulo;
+ }
+
+ @media(min-width:450px){
+ .formato{
+     display: block;
+    
+ }
+ }
+
+
+
+h1{
+    font-family: $fuentedetitulo;
+}
+
+.formato:hover{
+    color: rgb(255, 251, 0);
+    transition: 2.0s;
+    
+}
+

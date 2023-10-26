@@ -1,0 +1,23 @@
+/*importar fuente de google a Main y sus nombres para utilizar estas variables*/
+$fuentedetitulo:"dancing script", cursive;
+$fuentedesubtitulo:'MuseoModerno', sans-serif;
+$coloresgenerales: #000000;
+
+.introduccion{
+
+h1{
+    font-family: $fuentedetitulo;
+    font-weight: 500;
+    color: $coloresgenerales;
+    padding-right: 50px;
+    
+}
+
+p{
+    font-family: $fuentedesubtitulo;
+    font-weight: 300;
+    color: $coloresgenerales;
+}
+
+}
+
